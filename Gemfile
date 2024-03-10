@@ -29,6 +29,11 @@ gem "jbuilder"
 # webpackerのインストール
 gem 'webpacker', '~> 5.0'
 
+# bootstrapのインストール
+gem 'bootstrap', '~> 5.3.0'
+gem 'jquery-rails' 
+gem "sassc-rails"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
