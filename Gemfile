@@ -34,6 +34,9 @@ gem 'bootstrap', '~> 5.3.0'
 gem 'jquery-rails' 
 gem "sassc-rails"
 
+# fontawesomeのインストール
+gem 'font-awesome-sass'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
