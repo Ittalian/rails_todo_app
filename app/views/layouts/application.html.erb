@@ -14,6 +14,12 @@
   </head>
 
   <body>
+    <%# 部分テンプレートの描画 %>
+    <%= render 'partial/header' %>
+    
+    <%# この位置にアクションごとの個別レイアウトを表示する %>
     <%= yield %>
+
+    <%= render 'partial/footer' %>
   </body>
 </html>

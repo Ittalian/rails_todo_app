@@ -1,0 +1,22 @@
+<header class="header">
+    <div class="header-inner">
+        <%# ヘッダーの左側 %>
+        <div class="header-site">
+          <div class="site">
+            <h1>todo_app</h1>
+          </div>
+        </div>
+
+        <%# ヘッダーの右側%>
+        <div class="header-nav">
+          <nav class="menu" id="menu">
+            <ul>
+              <li><i class="fas fa-user-tie"></i></li>
+              <li><p>〇〇さんとしてログインしています</li>
+              <li><%= link_to "トップ", root_path %></li>
+              <li><%= link_to "タスクを追加", root_path %></li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+</header>
