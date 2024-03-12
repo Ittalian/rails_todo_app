@@ -11,8 +11,11 @@
         <div class="header-nav">
           <nav class="menu" id="menu">
             <ul>
-              <li><i class="fas fa-user-tie"></i></li>
-              <li><p>〇〇さんとしてログインしています</li>
+              <% if current_user %>
+                <li><i class="fas fa-user-tie"></i></li>
+                <li><p>〇〇さんとしてログインしています</li>
+                <li><%= link_to "ログアウト", destroy_user_session_path, method: :get %></li>
+              <% end %>
               <li><%= link_to "トップ", root_path %></li>
               <li><%= link_to "タスクを追加", root_path %></li>
             </ul>
