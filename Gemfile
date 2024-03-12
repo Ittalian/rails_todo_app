@@ -37,6 +37,9 @@ gem "sassc-rails"
 # fontawesomeのインストール
 gem 'font-awesome-sass'
 
+# deviseのインストール
+gem 'devise'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
